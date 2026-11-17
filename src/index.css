@@ -1,0 +1,11 @@
+@import "./vendor/fonts.css";
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
