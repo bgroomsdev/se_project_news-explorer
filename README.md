@@ -4,8 +4,11 @@ A responsive React web application that lets users search for recent news articl
 
 ## Live Demo
 
-- **GitHub Pages:** https://bgroomsdev.github.io/se_project_news-explorer/
-- **Project Pitch:** https://drive.google.com/file/d/1-WprCMXJXJWVVSO_Rk6eV7Gex7jTOZVD/view?usp=sharing
+Take a look at the [live demo](https://bgroomsdev.github.io/se_project_news-explorer/).
+
+## Project Pitch
+
+Check out [this video](https://drive.google.com/file/d/1-WprCMXJXJWVVSO_Rk6eV7Gex7jTOZVD/view?usp=sharing), where I describe my project and its features.
 
 ## Features
 
