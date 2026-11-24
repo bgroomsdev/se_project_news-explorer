@@ -8,12 +8,16 @@ function About() {
       <div className="about__content">
         <h2 className="about__title">About the author</h2>
         <p className="about__paragraph">
-          This block describes the project author. Here you should indicate your
-          name, what you do, and which development technologies you know.
+          Hi, I&apos;m Braden Grooms, a junior full-stack developer based in San
+          Antonio, Texas. Through TripleTen, I learned to build complete apps
+          with React, Node, Express, and MongoDB.
         </p>
         <p className="about__paragraph">
-          You can also talk about your experience with TripleTen, what you
-          learned there, and how you can help potential customers.
+          News Explorer puts that into practice: an app built from a Figma
+          design, with routing, reusable components, and live search results
+          from the News API. I also deployed my previous project, WTWR, on my
+          own Google Cloud server. I&apos;m looking for a team where I can keep
+          building and learning.
         </p>
       </div>
     </section>
