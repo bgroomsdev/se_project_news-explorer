@@ -1,6 +1,6 @@
 const newsApiBaseUrl =
   import.meta.env.MODE === "production"
-    ? "https://railway.app"
+    ? "https://news-api-proxy.up.railway.app/news/v2/everything"
     : "https://newsapi.org/v2/everything";
 
 const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
