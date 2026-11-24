@@ -1,16 +1,24 @@
-# React + Vite
+# NewsExplorer Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React web application that lets users search for recent news articles by keyword using the News API, create an account, and save articles to a personal reading list.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **GitHub Pages:** https://bgroomsdev.github.io/se_project_news-explorer/
+- **Project Pitch:** https://drive.google.com/file/d/1-WprCMXJXJWVVSO_Rk6eV7Gex7jTOZVD/view?usp=sharing
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search worldwide news articles from the past 7 days via News API
+- View search results with 3-card pagination ("Show more")
+- Simulated user authentication (`Sign up` and `Sign in` modals with form validation)
+- Save and delete articles on the protected `/saved-news` route with dynamic keyword summaries
+- Responsive layout across desktop (`1440px`), tablet (`768px`), and mobile (`320px`) screens
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 & React Router
+- Vite
+- HTML5 & CSS3 (BEM methodology, Flexbox, CSS Grid, Media Queries)
+- News API
+- Node
