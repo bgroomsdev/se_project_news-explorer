@@ -1,0 +1,22 @@
+@import "./vendor/normalize.css";
+@import "./vendor/fonts.css";
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #1a1b22;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
